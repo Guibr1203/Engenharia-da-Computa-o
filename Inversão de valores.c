@@ -1,16 +1,15 @@
 #include <stdio.h>
+
 int main(){
-    float A,B,C;
-    printf("Digite o valor de A:");
-    scanf("%f", &A);
-    printf("Digite o valor de B:");
-    scanf("%f", &B);
-    C=A;
-    A=B;
-    B=C;
-
-    printf("O valor de A e: %f", A);
-    printf("\nO valor de B e: %f", B);
+    float a, b, temp;
+    printf("Digite o valor de A:\n");
+    scanf("%f", &a);
+    printf("Digite o valor de B:\n");
+    scanf("%f", &b);
+    temp=a;
+    a=b;
+    b=temp;
+    printf("\nO valor de A agora eh: %f", a);
+    printf("\nO valor de B agora eh: %f", a);
     return 0;
-
 }
