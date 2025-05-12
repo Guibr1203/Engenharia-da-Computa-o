@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main (){
     float salario_receber,salario_base,gratificacao,imposto;
     printf("Digite o valor do Salario:\n");
