@@ -26,6 +26,7 @@ int main (){
                 printf("\nA operacao digitada eh invalida.");
             }
         }
+        opver++;
     }
     return 0;
 }
